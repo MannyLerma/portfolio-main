@@ -18,7 +18,7 @@ return (
             <div className='left-container'>
                 <div className='card'>
                     <h3>Rock, Paper, Scissors</h3>
-                    <p>Web Design, Web Development</p>
+                    <p>Design, HTML, CSS, JavaScript, Procreate</p>
                     <img src={RPS} alt={'Rock, Paper, Scissors project'} />
                     <div className='project-buttons'>
                         <button>Live</button>
@@ -30,7 +30,7 @@ return (
             <div className='right-container'>
                 <div className='card'>
                 <h3>Hulu Clone</h3>
-                <p>React Development, Web Design</p>
+                <p>HTML, CSS, JavaScript</p>
                 <img src={Hulu} />
                 <div className='project-buttons'>
                         <button>Live</button>
@@ -43,7 +43,7 @@ return (
             <div className='left-container shift-up'>
                 <div className='card'>
                     <h3>Weather App</h3>
-                    <p>Web Design, Web Development</p>
+                    <p>Design, HTML, CSS, JavaScript, API</p>
                     <img src={Weather} />
                     <div className='project-buttons'>
                         <button>Live</button>
@@ -55,7 +55,7 @@ return (
             <div className='right-container'>
                 <div className='card'>
                 <h3>This Portfolio</h3>
-                <p>React Development, Web Design</p>
+                <p>Design, HTML, CSS, React Development</p>
                 <img src={Laptop} />
                 <div className='project-buttons'>
                         <button>Live</button>
@@ -68,11 +68,10 @@ return (
             <div className='left-container shift-up2'>
                 <div className='card'>
                     <h3>Client Website</h3>
-                    <p>Web Design, Web Development</p>
+                    <p>Web Design, Graphic Design, WordPress</p>
                     <img src={CSS} />
                     <div className='project-buttons'>
                         <button>Live</button>
-                        <button>Github</button>
                     </div>
                 </div>
                 
@@ -80,11 +79,10 @@ return (
             <div className='right-container'>
                 <div className='card'>
                 <h3>My Graphic Design Website</h3>
-                <p>React Development, Web Design</p>
+                <p>Web Design, Graphic Design, WordPress, Drawing/Painting</p>
                 <img src={GFX} />
                 <div className='project-buttons'>
                         <button>Live</button>
-                        <button>Github</button>
                     </div>
                 </div>
             </div>

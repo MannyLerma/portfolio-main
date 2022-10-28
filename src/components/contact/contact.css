@@ -72,3 +72,26 @@ input:last-child {
     border-radius: 50%;
     margin-bottom: 8px;
   }
+
+
+@media screen and (max-width: 390px) {
+ 
+    .title {
+        margin-top: 10px;
+    }
+
+    .contact-links-container {
+    margin-left: 24px;
+    gap: 24px;
+}
+
+.links {
+    margin-top: 10px;
+    gap: 46px;
+}
+
+.link-row > a {
+    gap: 32px;
+}
+
+}

@@ -14,3 +14,27 @@
 html {
   scroll-behavior: smooth;
 }
+
+@media screen and (max-width: 1024px) { 
+
+  * {
+    margin: 0px;
+  }
+
+  .container {
+    margin: 36px 50px;
+  }
+
+}
+
+@media screen and (max-width: 390px) { 
+
+.container {
+  margin: 24px 50px;
+}
+
+body {
+  width: 222vw;
+}
+
+}

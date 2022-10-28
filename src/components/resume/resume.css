@@ -134,3 +134,43 @@ a:visited {
   #resume {
     bottom: 25px;
   }
+
+  @media screen and (max-width: 1024px) { 
+
+    .resume-info-container {
+        gap: 120px;
+    }
+    
+    .list {
+        gap: 125px
+    }
+
+    div.work-experience > p  {
+        line-height: 28px;
+    }
+  }
+
+
+  @media screen and (max-width: 390px) { 
+
+    .resume-info-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .work-experience-container {
+        margin-left: 24px;
+    }
+
+    .list {
+        margin-left: 24px;
+    }
+
+    .education {
+        margin-left: 24px;
+    }
+
+    .online-course {
+        margin-left: 24px;
+    }
+  }
