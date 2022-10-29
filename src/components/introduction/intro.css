@@ -109,8 +109,8 @@ p {
 
   @media screen and (max-width: 414px) { 
     h1 {
-      line-height: 92px;
-      font-size: 76px;
+      line-height: 12px;
+      font-size: 36px;
     }
 
     .subtext-heading {
