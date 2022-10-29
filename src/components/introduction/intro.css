@@ -107,7 +107,7 @@ p {
     visibility: visible;
   }
 
-  @media screen and (max-width: 390px) { 
+  @media screen and (max-width: 414px) { 
     h1 {
       line-height: 92px;
       font-size: 76px;
