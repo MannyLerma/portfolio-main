@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Braveold;
+  src: url(Braveold-Bold.ttf);
+}
+
+.container {
+  margin: 36px 220px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1024px) { 
+
+  * {
+    margin: 0px;
+  }
+
+  .container {
+    margin: 36px 50px;
+  }
+
+}
+
+@media screen and (max-width: 414px) { 
+
+.container {
+  margin: 16px 16px;
+}
+
+body {
+  max-width: 97%;
+}
+
+}
