@@ -110,11 +110,17 @@ p {
   @media screen and (max-width: 414px) { 
     h1 {
       line-height: 12px;
-      font-size: 36px;
+      font-size: 24px;
     }
 
     .subtext-heading {
-      margin: 15px 0px;
+      margin: 12px 0px;
+    }
+
+    .subtext-heading  p {
+      margin: 12px 0px;
+      font-size: 12px;
+      line-height: 12px;
     }
 
     .heading-links {

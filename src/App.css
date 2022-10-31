@@ -27,10 +27,10 @@ html {
 
 }
 
-@media screen and (max-width: 390px) { 
+@media screen and (max-width: 414px) { 
 
 .container {
-  margin: 24px 50px;
+  margin: 24px 18px;
 }
 
 body {
