@@ -160,22 +160,30 @@ button:first-child:hover {
   
   }
 
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 414px) {
     
+    h3 {
+        line-height: 28px;
+        font-size: 24px;
+    }
+
     .left-container {
-        width: 66vw;
+        width: 33vw;
+        padding: 21px;
     }
 
     .right-container {
-        width: 72vw;
+        width: 33vw;
+        padding: 21px;
     }
 
     .card {
-        width: 72vw;
+        width: 33vw;
     }
 
     .card > p {
-        line-height: 27px;
+        line-height: 22px;
+        font-size: 16px;
     }
 
     .project-buttons {
@@ -185,6 +193,10 @@ button:first-child:hover {
 
     button:first-child {
         width: 100%;
+    }
+
+    div.card > img {
+        margin: 28px 0;
     }
 
   }

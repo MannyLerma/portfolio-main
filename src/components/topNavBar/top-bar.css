@@ -62,13 +62,21 @@ div.logo {
 
     .top-nav-container {
         justify-content: center;
-        width: 43%;
+        width: 100%;
         padding: 0;
     }
 
     .title {
         font-size: 36px;
         margin-top: 8px;
+
+    }
+    p.title {
+        margin-bottom: 17px;
+    }
+
+    .brand-container {
+        align-items: baseline;
     }
 
 
@@ -77,9 +85,15 @@ div.logo {
         width: 0;
     }
 
-    img {
+    .heading-links {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .brand-container > img {
       width: 30px;
       height: 30px;
     }
+
 
 }

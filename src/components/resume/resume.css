@@ -151,11 +151,13 @@ a:visited {
   }
 
 
-  @media screen and (max-width: 390px) { 
+  @media screen and (max-width: 414px) { 
 
     .resume-info-container {
         flex-direction: column;
         gap: 10px;
+        margin-left: 14px;
+        flex-direction: column;
     }
 
     .work-experience-container {

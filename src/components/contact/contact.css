@@ -74,10 +74,14 @@ input:last-child {
   }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
  
     .title {
         margin-top: 10px;
+    }
+
+    .title > h2 {
+        font-size: 42px;
     }
 
     .contact-links-container {

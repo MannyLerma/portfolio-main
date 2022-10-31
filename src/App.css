@@ -30,11 +30,11 @@ html {
 @media screen and (max-width: 414px) { 
 
 .container {
-  margin: 24px 18px;
+  margin: 16px 16px;
 }
 
 body {
-  width: 222vw;
+  max-width: 97%;
 }
 
 }
